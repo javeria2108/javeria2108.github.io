@@ -16,7 +16,7 @@ npm run build
 ```
 
 The build exports a static site into `out/`. Pages: Home, Projects (with case
-studies), Experience, Journal (LinkedIn post summaries), Reading List,
+studies), Experience, Recommendations, Journal (LinkedIn post summaries), Reading List,
 Courses/certificates, Now, About/contact,
 and a print-friendly résumé at `/resume`.
 
