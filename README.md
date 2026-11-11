@@ -33,7 +33,12 @@ and font credits. External project demos are supplied references; their
 availability is not guaranteed. Static pages export as directories containing
 `index.html` so nested routes work on GitHub Pages. The custom 404 is `404.html`.
 
-The GitHub Pages workflow in `.github/workflows/publish.yml` builds and deploys
-`out/` on pushes to `master` in `javeria2108/javeria2108.github.io`. The repository’s
-Pages publishing source must be GitHub Actions. This publishes the site at
-`https://javeria2108.github.io/`.
+Production is `https://javeria2108.github.io/`. Source lives on `master` in
+`javeria2108/javeria2108.github.io`; GitHub Pages publishes the built files from
+the root of `gh-pages`. Build locally and publish the contents of `out/` to
+that branch, preserving `.nojekyll`.
+
+GitHub Actions is currently blocked by an account billing lock. The prepared
+workflow in `.github/workflows/publish.yml` remains enabled but cannot run.
+After resolving the lock, switch the Pages publishing source to GitHub Actions
+to deploy automatically on pushes to `master`.
