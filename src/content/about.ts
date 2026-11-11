@@ -1,9 +1,0 @@
-export const personalIntroduction = [
-  'I’m Javeria. Like anyone, I’m a mix of familiar contradictions and experiences that are entirely my own.',
-  'Difficult experiences early in life have shaped how I see the world and the person I’m becoming. I feel deeply and care intensely about the things that matter to me. I’m also still learning to turn that passion into consistent action: to use my time thoughtfully, build discipline, and meet my potential with patience rather than guilt.',
-  'My curiosity pulls me in many directions. I want to contribute to open source, understand machine learning deeply, and revisit the foundations of what I already know. Outside engineering, I imagine starting a small creative business, sharing my interest in fitness, and opening a gym for women. One deeply personal ambition is to write my father’s biography, giving his life the care and recognition I believe it deserves.',
-  'Running through these different ambitions is a wish to be useful to others: to help make someone’s life a little easier and leave them with more hope than before.',
-  'I spend a lot of time thinking about life, the universe, and our place in it. I want to put my energy into something meaningful and purposeful. I’m still working through my own limitations and the habits that sometimes hold me back, but I remain hopeful. I don’t have every direction mapped out; I do have a strong desire to grow and do work that matters.',
-] as const;
-
-export const engineeringApproach = 'I care about understanding how a system works, from a user’s action through application logic, data storage, and external services. I want to understand the reasoning behind architectural decisions: the problems they solve, the tradeoffs they introduce, and how well they support a system as it evolves.';
